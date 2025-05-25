@@ -9,18 +9,14 @@
     "margin-left": 0,
 
     "modules-left": [
-        "hyprland/workspaces", "power-profiles-daemon","battery", "network"
+        "power-profiles-daemon","battery", "network"
     ],
 
     "modules-center": [
-        "clock",
 	"hyprland/window"
     ],
 
     "modules-right": [
-        "tray",
-	"pulseaudio",
-	"pulseaudio/slider",
         "backlight",
 	"cpu",
         "memory"
