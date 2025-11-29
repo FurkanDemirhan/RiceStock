@@ -1,0 +1,36 @@
+position = "bottom"
+height = 38
+margin.bottom = 0
+margin.top = 0
+margin.right = 0
+margin.left = 0
+
+[[start]]
+type = "workspaces"
+
+
+
+[[end]]
+type = "tray"
+icon_size = 24
+
+
+[[end]]
+type = "clipboard"
+
+[[end]]
+type = "music"
+#player_type = "mpd"
+#truncate = "end"
+#truncate.length = 10
+truncate.mode = "end"
+truncate.max_length = 20
+
+[[end]]
+type = "volume"
+
+
+[[end]]
+type = "clock"
+format = "  %H:%M:%S\n%d/%m/%Y"
+justify = "center"
